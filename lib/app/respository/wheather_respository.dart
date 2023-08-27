@@ -5,7 +5,7 @@ import 'package:weather/app/models/wehather.dart';
 
 class WheatherRepository {
   static const String _apiKey =
-      '2dcf8b8ea5msha304fc3b7fcd52fp111e17jsn2cf8ace7ec1a';
+      '';
   var apiUrl = 'https://weatherapi-com.p.rapidapi.com/current.json?q=';
 
   final _apiHeaders = {
